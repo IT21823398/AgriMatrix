@@ -44,7 +44,9 @@ const Cube = ({ size, xOffset, delay }) => {
       return () => clearInterval(interval);
     }, []);
   
-    
+    return (
+      
+    );
   };
   
   export default MatrixCubesLogo;
