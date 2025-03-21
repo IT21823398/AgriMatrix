@@ -8,5 +8,14 @@
     background-color: black;
     color: #7ed957;
     overflow: hidden;
-    
+
 }
+
+.title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 10;
+    letter-spacing: 2px;
+  }
