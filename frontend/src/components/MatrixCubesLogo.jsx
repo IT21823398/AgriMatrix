@@ -18,7 +18,8 @@ const Cube = ({ size, xOffset, delay }) => {
           delay,
           opacity: { duration: 2.5, ease: "linear" }, // Fade happens over the last 2.5s
         }}
-        
+        className="cube"
+        style={{ width: size, height: size }}
       />
     );
   };
