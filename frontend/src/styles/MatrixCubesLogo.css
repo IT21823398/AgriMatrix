@@ -1,0 +1,48 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 50vw;
+    background-color: black;
+    color: #7ed957;
+    overflow: hidden;
+
+}
+
+.title {
+    font-size: 6.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 10;
+    letter-spacing: 2px;
+
+}
+
+.title .white-text {
+    color: white;
+
+}
+
+.animation-area {
+    position: relative;
+    width: 430px; 
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    margin-top: -64px;
+    overflow: hidden;
+    margin-left: 120px; 
+
+}
+
+.cube {
+    position: absolute;
+    background-color: #7ed957;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.6);
+  
+}
