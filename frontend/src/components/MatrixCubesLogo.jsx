@@ -45,10 +45,24 @@ const Cube = ({ size, xOffset, delay }) => {
     }, []);
   
     return (
-      
+      <div className="container">
+        <h1 className="title">
+          <span className="white-text">Agri</span><span>Matrix</span>
+        </h1>
+        <div className="animation-area">
+          {cubes.map((cube) => (
+            <Cube 
+              key={cube.id} 
+              size={cube.size} 
+              xOffset={cube.xOffset} 
+              delay={cube.delay} 
+            />
+          ))}
+        </div>
+      </div>
     );
   };
   
-  export default MatrixCubesLogo;
+
   
  
