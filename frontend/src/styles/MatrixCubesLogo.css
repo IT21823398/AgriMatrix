@@ -29,13 +29,13 @@
 
 .animation-area {
     position: relative;
-    width: 430px; /* Width matches the 'Matrix' word */
+    width: 430px; 
     height: 120px;
     display: flex;
     justify-content: center;
     margin-top: -64px;
     overflow: hidden;
-    margin-left: 120px; /* Adjust alignment */
+    margin-left: 120px; 
 
 }
 
