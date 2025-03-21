@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import "src/styles/MatrixCubesLogo.css"; // Import the CSS file
+import "../styles/MatrixCubesLogo.css"; // Import the CSS file
 
 const Cube = ({ size, xOffset, delay }) => {
     return (
