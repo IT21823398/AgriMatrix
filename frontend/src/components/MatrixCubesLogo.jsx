@@ -63,6 +63,6 @@ const Cube = ({ size, xOffset, delay }) => {
     );
   };
   
-
+export default MatrixCubesLogo;
   
  
