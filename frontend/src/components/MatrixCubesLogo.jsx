@@ -24,4 +24,12 @@ const Cube = ({ size, xOffset, delay }) => {
     );
   };
   
+  const MatrixCubesLogo = () => {
+    const [cubes, setCubes] = useState([]);
+  
+    
+  };
+  
+  export default MatrixCubesLogo;
+  
  
