@@ -12,6 +12,12 @@ const Cube = ({ size, xOffset, delay }) => {
           x: xOffset + (Math.random() * 140 - 70), // Shift further right
           scale: 0.8,
         }}
+        transition={{
+          duration: 5, // Slower falling
+          ease: "easeOut",
+          delay,
+          opacity: { duration: 2.5, ease: "linear" }, // Fade happens over the last 2.5s
+        }}
         
       />
     );
