@@ -40,7 +40,11 @@ const Cube = ({ size, xOffset, delay }) => {
         ]);
       };
   
-      
+      const interval = setInterval(generateCubes, 120); // Increase cube generation rate
+      return () => clearInterval(interval);
+    }, []);
+  
+    
   };
   
   export default MatrixCubesLogo;
