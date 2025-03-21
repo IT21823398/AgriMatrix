@@ -27,7 +27,20 @@ const Cube = ({ size, xOffset, delay }) => {
   const MatrixCubesLogo = () => {
     const [cubes, setCubes] = useState([]);
   
-    
+    useEffect(() => {
+      const generateCubes = () => {
+        setCubes((prevCubes) => [
+          ...prevCubes.filter((cube) => cube.id > Date.now() - 5000), // Keep only recent cubes
+          ...Array(4).fill(null).map(() => ({ // Generate more cubes per interval
+            id: Date.now() + Math.random(),
+            size: `${Math.random() * 14 + 8}px`,
+            xOffset: Math.random() * 340 - 110, // Further reduced from left
+            delay: Math.random() * 1.5, // Staggered delays
+          }))
+        ]);
+      };
+  
+      
   };
   
   export default MatrixCubesLogo;
