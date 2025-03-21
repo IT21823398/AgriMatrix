@@ -37,3 +37,11 @@
     margin-left: 120px; /* Adjust alignment */
 
 }
+
+.cube {
+    position: absolute;
+    background-color: #7ed957;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.6);
+  
+}
