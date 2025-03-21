@@ -23,5 +23,17 @@
 
 .title .white-text {
     color: white;
-    
+
+}
+
+.animation-area {
+    position: relative;
+    width: 430px; /* Width matches the 'Matrix' word */
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    margin-top: -24px;
+    overflow: hidden;
+    margin-left: 120px; /* Adjust alignment */
+
 }
