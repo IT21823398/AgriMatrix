@@ -53,7 +53,7 @@ input[type=text] ,[type=password] {
 }
 
 input[type=text]:hover{
-    box-shadow: 5px 10px 20px rgba(151, 71, 255, 0.24);
+    box-shadow: 5px 10px 20px rgba(126, 217, 87, 0.24);
     
 }
 
