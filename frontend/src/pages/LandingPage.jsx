@@ -11,7 +11,8 @@ function LandingPage() {
                     <p id="p1">For Tomorrow's</p>
                     <p id="p2">Future.</p>
                     <form>
-                        
+                    <input type="text" id="username" name="username" placeholder="Username" />
+                    
                     </form>
                     <button class="s-btn"><img src={google} width="18px" height="18px" />Sign in with Google</button>
                     <br />
