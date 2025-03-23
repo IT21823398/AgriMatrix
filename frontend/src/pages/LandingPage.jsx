@@ -14,8 +14,10 @@ function LandingPage() {
                         <input type="text" id="username" name="username" placeholder="Username" />
                         <input type="password" id="password" name="password" placeholder="Password" required />
                         <br /><br />
-                        <button type="submit" className="submit-btn">Log in</button><br />
+                        <button type="submit" className="submit-btn">Log in</button>
+                        <br /><br />
                         <hr id="horizontal" />
+                        <br /><br />
                         <button class="s-btn"><img src={google} height="18px" />Sign in with Google</button>
                         <br />
                         <button class="s-btn"><img src={facebook} height="18px" />Sign in with Facebook</button>
