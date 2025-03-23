@@ -45,18 +45,6 @@ body {
     
 }
 
-.c-btn{
-    margin-top: 2px;
-    width: 60%;
-    padding: 10px 20px;
-    font-weight: bold;
-    font-size: 14px;
-    border-radius: 20px;
-    background-color: #9747ff;
-    transition: 0.4s;
-
-}
-
 .s-btn img {
     float: left;
     
@@ -66,13 +54,6 @@ body {
     border-color: #9747ff;
     
 }
-
-.c-btn:hover {
-    background-color: black;
-    border-color: #9747ff;
-    
-}
-
 
 #horizontal {
     float: left;
