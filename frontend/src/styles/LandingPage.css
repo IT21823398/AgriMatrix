@@ -95,6 +95,7 @@ input:focus::placeholder {
     font-weight: bold;
     font-size: 14px;
     border-radius: 20px;
+    transition: 0.4s;
     
 }
 
