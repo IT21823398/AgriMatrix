@@ -8,7 +8,7 @@ function LandingPage() {
         <body>
             <div class="container">
                 <div class="sign-in">
-                    <p id="p1">Future of</p>
+                    <p id="p1">Next Future</p>
                     <p id="p2">Agriculture.</p>
                     <form id="sign-in-form">
                         <input type="text" id="username" name="username" placeholder="Username" />
