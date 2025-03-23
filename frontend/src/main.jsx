@@ -10,8 +10,10 @@ import LandingPage from './pages/LandingPage';
 
 
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <LandingPage />
-  </StrictMode>,
-)
+createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
+);
