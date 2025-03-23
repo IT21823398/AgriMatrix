@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import MatrixCubesLogo from '../components/MatrixCubesLogo';
 import '../styles/LandingPage.css';
 import google from '../assets/google.png';
 import facebook from '../assets/facebook.png';
