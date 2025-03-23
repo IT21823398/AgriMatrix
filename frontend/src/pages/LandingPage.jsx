@@ -12,7 +12,7 @@ function LandingPage() {
                     <p id="p2">Future.</p>
                     <form>
                     <input type="text" id="username" name="username" placeholder="Username" />
-                    
+                    <input type="password" id="password" name="password" placeholder="Password" required />
                     </form>
                     <button class="s-btn"><img src={google} width="18px" height="18px" />Sign in with Google</button>
                     <br />
