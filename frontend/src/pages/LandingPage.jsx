@@ -10,6 +10,9 @@ function LandingPage() {
                 <div class="sign-in">
                     <p id="p1">For Tomorrow's</p>
                     <p id="p2">Future.</p>
+                    <form>
+                        
+                    </form>
                     <button class="s-btn"><img src={google} width="18px" height="18px" />Sign in with Google</button>
                     <br />
                     <button class="s-btn"><img src={facebook} width="18px" height="18px" />Sign in with Facebook</button>
