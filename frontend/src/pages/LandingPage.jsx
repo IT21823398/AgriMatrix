@@ -10,7 +10,7 @@ function LandingPage() {
                 <div class="sign-in">
                     <p id="p1">For Tomorrow's</p>
                     <p id="p2">Future.</p>
-                    <form>
+                    <form id="sign-in-form">
                         <input type="text" id="username" name="username" placeholder="Username" />
                         <input type="password" id="password" name="password" placeholder="Password" required />
                         <button type="submit" className="submit-btn">Log in</button><br />
