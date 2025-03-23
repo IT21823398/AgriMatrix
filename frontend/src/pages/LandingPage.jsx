@@ -9,6 +9,7 @@ function LandingPage() {
             <div class="container">
             <div class="sign-in">
             <p id="p1">For Tomorrow's</p>
+            <p id="p2">Future.</p>
                     
                 </div>
 
