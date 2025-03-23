@@ -5,7 +5,9 @@ import { Routes, Route } from "react-router-dom";
 import LandingPage from "./LandingPage";
 
 const App = () => {
-    
+    return (
+      
+    );
   };
   
   export default App;
