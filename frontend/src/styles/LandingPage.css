@@ -74,6 +74,12 @@ input:focus::placeholder {
 
 }
 
+.submit-btn:hover {
+    background-color: black;
+    border-color: #9747ff;
+    
+}
+
 
 .s-btn {
     width: 60%;
