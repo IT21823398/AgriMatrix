@@ -4,6 +4,7 @@ import MatrixCubesLogo from "../components/MatrixCubesLogo";
 function LandingPage() {
   return (
     <>
+    <MatrixCubesLogo />
     </>
     
   );
