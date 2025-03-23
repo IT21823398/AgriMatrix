@@ -13,15 +13,12 @@ function LandingPage() {
                     <form>
                     <input type="text" id="username" name="username" placeholder="Username" />
                     <input type="password" id="password" name="password" placeholder="Password" required />
-                    <button type="submit" className="ccc-btn">Log in</button><br /><br />
+                    <button type="submit" className="ccc-btn">Log in</button><br />
                     </form>
+                    <hr id="horizontal" />
                     <button class="s-btn"><img src={google} width="18px" height="18px" />Sign in with Google</button>
                     <br />
                     <button class="s-btn"><img src={facebook} width="18px" height="18px" />Sign in with Facebook</button>
-                    <hr id="horizontal" />
-                    <Link to="/sign-in">
-                        <button className="c-btn">Sign in</button>
-                    </Link>
                 </div>
             </div>
         </body>
