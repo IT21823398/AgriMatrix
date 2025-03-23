@@ -67,6 +67,13 @@ body {
     
 }
 
+.c-btn:hover {
+    background-color: black;
+    border-color: #9747ff;
+    
+}
+
+
 #horizontal {
     float: left;
     width: 60%;
