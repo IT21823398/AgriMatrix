@@ -8,8 +8,8 @@ function LandingPage() {
         <body>
             <div class="container">
                 <div class="sign-in">
-                    <p id="p1">For Tomorrow's</p>
-                    <p id="p2">Future.</p>
+                    <p id="p1">Future of</p>
+                    <p id="p2">Agriculture.</p>
                     <form id="sign-in-form">
                         <input type="text" id="username" name="username" placeholder="Username" />
                         <input type="password" id="password" name="password" placeholder="Password" required />
