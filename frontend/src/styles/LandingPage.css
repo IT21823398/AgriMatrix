@@ -33,6 +33,20 @@ body {
     
 }
 
+input[type=text] ,[type=password] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid rgb(151, 71, 255);
+    box-sizing: border-box;
+    background-color: black;
+    font-size: 14px;
+    transition: box-shadow 0.3s ease;
+
+}
+
 .s-btn {
     width: 60%;
     padding: 10px 20px;
