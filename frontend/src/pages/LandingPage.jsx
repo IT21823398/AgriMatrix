@@ -18,9 +18,9 @@ function LandingPage() {
                         <br /><br />
                         <hr id="horizontal" />
                         <br /><br />
-                        <button class="Oauth-btn"><img src={google} height="18px" />Sign in with Google</button>
+                        <button class="Oauth-btn"><img src={google} height="16px" />Sign in with Google</button>
                         <br />
-                        <button class="Oauth-btn"><img src={facebook} height="18px" />Sign in with Facebook</button>
+                        <button class="Oauth-btn"><img src={facebook} height="16px" />Sign in with Facebook</button>
                     </form>
                 </div>
             </div>

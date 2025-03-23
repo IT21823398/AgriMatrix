@@ -88,6 +88,7 @@ input:focus::placeholder {
 
 .Oauth-btn {
     width: 340px;
+    height: 38px;
     padding: 10px 20px;
     margin-bottom: 10px;
     background-color: white;
