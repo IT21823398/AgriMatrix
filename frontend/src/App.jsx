@@ -6,7 +6,9 @@ import LandingPage from "./LandingPage";
 
 const App = () => {
     return (
-      
+      <Routes>
+        
+      </Routes>
     );
   };
   
