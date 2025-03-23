@@ -49,3 +49,8 @@ body {
     float: left;
     
 }
+
+.s-btn:hover {
+    border-color: #9747ff;
+    
+}
