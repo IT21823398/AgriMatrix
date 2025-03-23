@@ -16,3 +16,11 @@ body {
     margin-top: -80px;
 
 }
+
+#p1 { 
+    white-space: nowrap; 
+    font-size: 62px;
+    font-weight: 900;
+    color: white;  
+
+}
