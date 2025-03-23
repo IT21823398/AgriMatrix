@@ -57,6 +57,11 @@ input[type=password]:hover{
     
 }
 
+input:focus::placeholder {
+    color: transparent
+
+}
+
 
 .s-btn {
     width: 60%;
