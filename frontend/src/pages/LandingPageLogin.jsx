@@ -1,4 +1,4 @@
-import '../styles/LandingPage.css';
+import '../styles/LandingPageLogin.css';
 import google from '../assets/google.png';
 import facebook from '../assets/facebook.png';
 
