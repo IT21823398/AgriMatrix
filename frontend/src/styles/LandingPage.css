@@ -54,3 +54,11 @@ body {
     border-color: #9747ff;
     
 }
+
+#horizontal {
+    float: left;
+    width: 60%;
+    opacity: 0.2;
+    margin-top: 2px;
+
+}
