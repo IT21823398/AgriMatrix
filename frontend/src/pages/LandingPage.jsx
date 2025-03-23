@@ -14,6 +14,9 @@ function LandingPage() {
             <br />
                     <button class="s-btn"><img src={facebook} width="18px" height="18px" />Sign up with Facebook</button>
                     <hr id="horizontal" />
+                    <Link to="/sign-in">
+                        <button className="c-btn">Sign in</button>
+                    </Link>
                     
                 </div>
 
