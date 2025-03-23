@@ -2,7 +2,7 @@ import '../styles/LandingPageLogin.css';
 import google from '../assets/google.png';
 import facebook from '../assets/facebook.png';
 
-function LandingPage() {
+function LandingPageLogin() {
     return (
         <body>
             <div class="container">
@@ -10,7 +10,7 @@ function LandingPage() {
                     <p id="p1">Next Future</p>
                     <p id="p2">Agriculture.</p>
                     <form id="sign-in-form">
-                        <input type="text" id="username" name="username" placeholder="Username" />
+                        <input type="text" id="username" name="username" placeholder="Username" required/>
                         <input type="password" id="password" name="password" placeholder="Password" required />
                         <br /><br />
                         <button type="submit" className="submit-btn">Log in</button>
@@ -31,4 +31,4 @@ function LandingPage() {
 
 
 
-export default LandingPage
+export default LandingPageLogin;
