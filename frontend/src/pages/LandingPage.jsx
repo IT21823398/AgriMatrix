@@ -4,14 +4,14 @@ import google from './assets/google.png';
 import facebook from './assets/facebook.png';
 
 function LandingPage() {
-   return (
-    <body>
-        <div class="container">
-                
+    return (
+        <body>
+            <div class="container">
+
             </div>
 
-    </body>
-   );
+        </body>
+    );
 }
 
 
