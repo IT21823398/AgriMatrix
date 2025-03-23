@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 //imported pages
-import LandingPage from "./pages/LandingPageLogin";
+import LandingPage from "./components/LandingPageLogin";
 
 const App = () => {
     return (
