@@ -4,7 +4,9 @@ import google from './assets/google.png';
 import facebook from './assets/facebook.png';
 
 function LandingPage() {
-   
+   return (
+    
+   );
 }
 
 
