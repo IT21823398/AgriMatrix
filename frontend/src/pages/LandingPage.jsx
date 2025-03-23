@@ -1,13 +1,13 @@
-import LandingPageLogin from "../components/LandingPageLogin";
+import Login from "../components/Login";
 import MatrixCubesLogo from "../components/MatrixCubesLogo";
 
 function LandingPage() {
   return (
     <>
-    <MatrixCubesLogo />
-    <LandingPageLogin />
+      <MatrixCubesLogo />
+      <Login />
     </>
-    
+
   );
 }
 
