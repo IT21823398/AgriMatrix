@@ -5,7 +5,7 @@ function LandingPage() {
   return (
     <>
       <MatrixCubesLogo />
-      <Login />
+
     </>
 
   );
