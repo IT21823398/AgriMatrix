@@ -110,7 +110,7 @@ input:focus::placeholder {
 
 #horizontal {
     float: left;
-    width: 60%;
+    width: 340px;
     opacity: 0.2;
     margin-top: 6px;
 
