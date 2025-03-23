@@ -74,7 +74,7 @@ input:focus::placeholder {
     font-weight: bold;
     font-size: 14px;
     border-radius: 20px;
-    background-color: #9747ff;
+    background-color: #7ed957;
     transition: 0.4s;
 
 }
