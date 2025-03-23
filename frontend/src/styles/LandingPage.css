@@ -112,6 +112,6 @@ input:focus::placeholder {
     float: left;
     width: 340px;
     opacity: 0.2;
-    margin-top: 6px;
+    margin-top: 10px;
 
 }
