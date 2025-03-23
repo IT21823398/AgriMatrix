@@ -47,6 +47,12 @@ input[type=text] ,[type=password] {
 
 }
 
+input[type=text]:hover{
+    box-shadow: 5px 10px 20px rgba(151, 71, 255, 0.24);
+    
+}
+
+
 .s-btn {
     width: 60%;
     padding: 10px 20px;
