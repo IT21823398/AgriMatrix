@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import MatrixCubesLogo from './components/MatrixCubesLogo';
-import LandingPage from './components/LandingPage';
+import LandingPage from './pages/LandingPage';
 import './styles/index.css'
 
 
