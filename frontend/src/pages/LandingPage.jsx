@@ -10,6 +10,7 @@ function LandingPage() {
             <div class="sign-in">
             <p id="p1">For Tomorrow's</p>
             <p id="p2">Future.</p>
+            <button class="s-btn"><img src={google} width="18px" height="18px" />Sign up with Google</button>
                     
                 </div>
 
