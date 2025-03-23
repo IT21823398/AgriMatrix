@@ -4,8 +4,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50vh;
-    width: 50vw;
+    height: 100vh;
+    width: 100vw;
     background-color: black;
     color: #7ed957;
     overflow: hidden;
@@ -16,6 +16,7 @@
     font-size: 6.5rem;
     font-weight: bold;
     margin-bottom: 50px;
+    margin-left: -700px;
     position: relative;
     z-index: 10;
     letter-spacing: 2px;
@@ -29,13 +30,13 @@
 
 .animation-area {
     position: relative;
-    width: 430px; 
+    width: 390px; 
     height: 120px;
     display: flex;
     justify-content: center;
-    margin-top: -64px;
+    margin-top: -70px;
     overflow: hidden;
-    margin-left: 120px; 
+    margin-left: -555px; 
 
 }
 
