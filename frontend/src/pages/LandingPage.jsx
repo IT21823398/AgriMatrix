@@ -13,6 +13,7 @@ function LandingPage() {
                     <form>
                     <input type="text" id="username" name="username" placeholder="Username" />
                     <input type="password" id="password" name="password" placeholder="Password" required />
+                    <button type="submit" className="ccc-btn">Log in</button><br /><br />
                     </form>
                     <button class="s-btn"><img src={google} width="18px" height="18px" />Sign in with Google</button>
                     <br />
