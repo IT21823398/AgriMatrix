@@ -5,9 +5,6 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import './styles/index.css'
 
-import MatrixCubesLogo from './components/MatrixCubesLogo';
-import LandingPage from './pages/LandingPage';
-
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
