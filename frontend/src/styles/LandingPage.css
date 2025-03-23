@@ -86,7 +86,7 @@ input:focus::placeholder {
 }
 
 
-.s-btn {
+.Oauth-btn {
     width: 340px;
     padding: 10px 20px;
     margin-bottom: 10px;
@@ -99,12 +99,12 @@ input:focus::placeholder {
     
 }
 
-.s-btn img {
+.Oauth-btn img {
     float: left;
     
 }
 
-.s-btn:hover {
+.Oauth-btn:hover {
     border-color: #7ed957;
     background-color: black;
     color: white;
