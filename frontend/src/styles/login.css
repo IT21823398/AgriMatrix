@@ -120,3 +120,8 @@ input:focus::placeholder {
     margin-top: 10px;
 
 }
+
+#no_account {
+    font-weight: bold;
+
+}
