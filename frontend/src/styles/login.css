@@ -141,6 +141,7 @@ input:focus::placeholder {
 
 .request_ac:hover {
     background-color: #7ed957;
+    border-color: #7ed957;
     color:white;
 
 }
