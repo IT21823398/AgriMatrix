@@ -134,7 +134,7 @@ input:focus::placeholder {
     font-size: 14px;
     color: #7ed957;
     background-color: black;
-    border-color: #9747ff;
+    border-color: #7ed957;
     transition: 0.4s;
 
 }
