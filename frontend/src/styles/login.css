@@ -125,3 +125,15 @@ input:focus::placeholder {
     font-weight: bold;
 
 }
+
+.request_ac {
+    width: 60%;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color:#9747ff;
+    background-color: black;
+    border-color: #9747ff;
+    transition: 0.4s;
+
+}
