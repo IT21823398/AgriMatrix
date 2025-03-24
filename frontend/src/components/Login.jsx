@@ -19,6 +19,8 @@ function Login() {
                         <button class="Oauth-btn"><img src={google} height="16px" />Sign in with Google</button>
                         <br />
                         <button class="Oauth-btn"><img src={facebook} height="16px" />Sign in with Facebook</button>
+                        <p id="no_account">Not yet registered?</p>
+
                     </form>
                 </div>
             </div>
