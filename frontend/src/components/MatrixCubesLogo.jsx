@@ -45,7 +45,7 @@ const Cube = ({ size, xOffset, delay }) => {
     }, []);
   
     return (
-      <div className="container">
+      <div className="logo-container">
         <h1 className="title">
           <span className="white-text">Agri</span><span>Matrix</span>
         </h1>
