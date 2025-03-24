@@ -1,15 +1,10 @@
-body {
-    background-color: black;
-
-}
-
 .login-container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-
-
+    width: 100vw;
+    background-color: black;
 }
 
 .sign-in {
@@ -18,11 +13,11 @@ body {
 
 }
 
-#p1 { 
-    white-space: nowrap; 
+#p1 {
+    white-space: nowrap;
     font-size: 60px;
     font-weight: 900;
-    color: white;  
+    color: white;
 
 }
 
@@ -31,7 +26,7 @@ body {
     font-weight: 900;
     margin-top: -60px;
     color: #7ed957;
-    
+
 }
 
 #sign-in-form {
@@ -39,7 +34,8 @@ body {
 
 }
 
-input[type=text] ,[type=password] {
+input[type=text],
+[type=password] {
     width: 340px;
     padding: 10px 20px;
     margin: 8px 0;
@@ -53,22 +49,21 @@ input[type=text] ,[type=password] {
 
 }
 
-input[type=text]:hover{
+input[type=text]:hover {
     box-shadow: 5px 10px 20px rgba(126, 217, 87, 0.24);
-    
+
 }
 
-input[type=password]:hover{
+input[type=password]:hover {
     box-shadow: 5px 10px 20px rgba(126, 217, 87, 0.24);
-    
+
 }
 
 input:focus::placeholder {
     color: transparent
-
 }
 
-.submit-btn{
+.submit-btn {
     margin-top: 2px;
     width: 340px;
     padding: 10px 20px;
@@ -83,7 +78,7 @@ input:focus::placeholder {
 .submit-btn:hover {
     background-color: black;
     border-color: #7ed957;
-    
+
 }
 
 
@@ -98,19 +93,19 @@ input:focus::placeholder {
     font-size: 14px;
     border-radius: 20px;
     transition: 0.4s;
-    
+
 }
 
 .Oauth-btn img {
     float: left;
-    
+
 }
 
 .Oauth-btn:hover {
     border-color: #7ed957;
     background-color: black;
     color: white;
-    
+
 }
 
 #horizontal {

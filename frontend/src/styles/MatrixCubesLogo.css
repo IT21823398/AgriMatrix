@@ -1,14 +1,13 @@
 .logo-container {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     width: 100vw;
+    background-color: black;
     color: #7ed957;
     overflow: hidden;
-
 }
 
 .title {
@@ -29,13 +28,13 @@
 
 .animation-area {
     position: relative;
-    width: 390px; 
+    width: 390px;
     height: 120px;
     display: flex;
     justify-content: center;
     margin-top: -70px;
     overflow: hidden;
-    margin-left: -555px; 
+    margin-left: -555px;
 
 }
 
@@ -44,5 +43,5 @@
     background-color: #7ed957;
     border-radius: 4px;
     box-shadow: 0px 0px 10px rgb(126, 217, 87);
-  
+
 }
