@@ -25,6 +25,7 @@ const Cube = ({ size, xOffset, delay }) => {
 };
 
 const MatrixCubesLogo = () => {
+  console.log("MatrixCubesLogo is rendering!"); // Debugging line
   const [cubes, setCubes] = useState([]);
 
   useEffect(() => {

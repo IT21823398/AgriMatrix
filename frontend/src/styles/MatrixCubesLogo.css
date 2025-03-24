@@ -1,23 +1,27 @@
 .logo-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
-    color: #7ed957;
-    overflow: hidden;
+    position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: #7ed957;
+  overflow: hidden;
+  width: auto;  
+  height: auto; 
+  padding: 20px; 
+
 }
 
 .title {
     font-size: 6.5rem;
     font-weight: bold;
     margin-bottom: 50px;
-    margin-left: -700px;
+    margin-left: 100px;
     position: relative;
     z-index: 10;
     letter-spacing: 2px;
+    position: fixed;
 
 }
 
@@ -27,14 +31,15 @@
 }
 
 .animation-area {
-    position: relative;
+    position: fixed;
     width: 390px;
     height: 120px;
     display: flex;
     justify-content: center;
     margin-top: -70px;
     overflow: hidden;
-    margin-left: -555px;
+    margin-left: 240px;
+    
 
 }
 

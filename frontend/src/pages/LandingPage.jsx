@@ -3,10 +3,10 @@ import MatrixCubesLogo from "../components/MatrixCubesLogo";
 
 function LandingPage() {
   return (
-    <>
+    <div className="app-container">
       <MatrixCubesLogo />
       <Login />
-    </>
+    </div>
 
   );
 }
