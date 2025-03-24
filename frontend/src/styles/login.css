@@ -132,7 +132,7 @@ input:focus::placeholder {
     border-radius: 20px;
     font-weight: bold;
     font-size: 14px;
-    color:#9747ff;
+    color: #7ed957;
     background-color: black;
     border-color: #9747ff;
     transition: 0.4s;
