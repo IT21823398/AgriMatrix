@@ -5,7 +5,7 @@ import facebook from '../assets/facebook.png';
 function LandingPageLogin() {
     return (
         <body>
-            <div class="container">
+            <div class="login-container">
                 <div class="sign-in">
                     <p id="p1">Next Future</p>
                     <p id="p2">Agriculture.</p>
