@@ -137,3 +137,9 @@ input:focus::placeholder {
     transition: 0.4s;
 
 }
+
+.request_ac:hover {
+    background-color: #9747ff;
+    color:white;
+
+}
