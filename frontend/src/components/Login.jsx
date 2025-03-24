@@ -2,9 +2,8 @@ import '../styles/login.css';
 import google from '../assets/google.png';
 import facebook from '../assets/facebook.png';
 
-function LandingPageLogin() {
+function Login() {
     return (
-        <body>
             <div class="login-container">
                 <div class="sign-in">
                     <p id="p1">Next Future</p>
@@ -23,7 +22,6 @@ function LandingPageLogin() {
                     </form>
                 </div>
             </div>
-        </body>
     );
 }
 
@@ -31,4 +29,4 @@ function LandingPageLogin() {
 
 
 
-export default LandingPageLogin;
+export default Login;
