@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import "../styles/MatrixCubesLogo.css"; // Import the CSS file
+import Login from "../components/Login";
 
 const Cube = ({ size, xOffset, delay }) => {
     return (
@@ -46,6 +47,7 @@ const Cube = ({ size, xOffset, delay }) => {
   
     return (
       <div className="logo-container">
+        <Login/>
         <h1 className="title">
           <span className="white-text">Agri</span><span>Matrix</span>
         </h1>
