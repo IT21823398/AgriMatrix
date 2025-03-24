@@ -20,7 +20,7 @@ function Login() {
                     <br />
                     <button class="Oauth-btn"><img src={facebook} height="16px" />Sign in with Facebook</button>
                     <p id="no_account">Not yet registered?</p>
-                    <button className="create_ac">Create Account</button>
+                    <button className="create_ac">Request Account</button>
                 </form>
             </div>
         </div>
