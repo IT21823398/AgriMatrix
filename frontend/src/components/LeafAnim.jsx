@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import leaf from "../assets/leaf.png";
+import "../styles/MatrixCubesLogo.css";
 
 const LeafAnim = () => {
     return (
