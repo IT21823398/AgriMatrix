@@ -4,6 +4,20 @@ import leaf from "../assets/leaf.png";
 
 const LeafAnim = () => {
     return (
-        
+        <motion.div
+          className="relative flex items-center justify-center"
+          animate={{ filter: [
+            "drop-shadow(0px 0px 10px #7ED95750)",
+            "drop-shadow(0px 0px 25px #7ED95780)",
+            "drop-shadow(0px 0px 10px #7ED95750)"
+          ] }}
+          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <img
+            src={LeafLogo}
+            alt="Glowing Leaf Logo"
+            className="w-[150px] h-auto"
+          />
+        </motion.div>
       );
   };
