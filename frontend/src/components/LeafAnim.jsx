@@ -21,3 +21,5 @@ const LeafAnim = () => {
         </motion.div>
       );
   };
+
+export default LeafAnim;
