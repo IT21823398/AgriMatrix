@@ -5,6 +5,7 @@ import LeafAnim from "../components/LeafAnim";
 function LandingPage() {
   return (
     <div className="app-container">
+      <LeafAnim />
       <MatrixCubesLogo />
       <Login />
     </div>
