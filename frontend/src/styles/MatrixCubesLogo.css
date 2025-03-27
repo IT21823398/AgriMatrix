@@ -68,6 +68,19 @@
     animation: glowAnimation 2s infinite ease-in-out;
 
 }
+
+@keyframes glowAnimation {
+    0% {
+      filter: drop-shadow(0px 0px 10px rgba(126, 217, 87, 0.3));
+    }
+    50% {
+      filter: drop-shadow(0px 0px 25px rgba(126, 217, 87, 0.5));
+    }
+    100% {
+      filter: drop-shadow(0px 0px 10px rgba(126, 217, 87, 0.3));
+    }
+
+}
   
 
   
