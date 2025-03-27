@@ -1,14 +1,16 @@
-.container {
-    position: relative;
+.logo-container {
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50vh;
-    width: 50vw;
     background-color: black;
     color: #7ed957;
     overflow: hidden;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin-left: -800px;
 
 }
 
@@ -16,9 +18,11 @@
     font-size: 6.5rem;
     font-weight: bold;
     margin-bottom: 50px;
+    margin-left: 100px;
     position: relative;
     z-index: 10;
     letter-spacing: 2px;
+    position: fixed;
 
 }
 
@@ -28,14 +32,15 @@
 }
 
 .animation-area {
-    position: relative;
-    width: 430px; 
+    position: fixed;
+    width: 390px;
     height: 120px;
     display: flex;
     justify-content: center;
-    margin-top: -64px;
+    margin-top: 210px;
     overflow: hidden;
-    margin-left: 120px; 
+    margin-left: 240px;
+
 
 }
 
@@ -43,6 +48,40 @@
     position: absolute;
     background-color: #7ed957;
     border-radius: 4px;
-    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.6);
-  
+    box-shadow: 0px 0px 10px rgb(126, 217, 87);
+
+}
+
+.glowing-leaf-container {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -170px;
+    margin-left: -970px;
+
+}
+
+
+.glowing-leaf-container img {
+    width: 160px;
+    height: auto;
+    filter: drop-shadow(0px 0px 10px rgba(126, 217, 87, 0.3));
+    animation: glowAnimation 2s infinite ease-in-out;
+
+}
+
+@keyframes glowAnimation {
+    0% {
+        filter: drop-shadow(0px 0px 10px rgba(126, 217, 87, 0.3));
+    }
+
+    50% {
+        filter: drop-shadow(0px 0px 25px rgba(126, 217, 87, 0.5));
+    }
+
+    100% {
+        filter: drop-shadow(0px 0px 10px rgba(126, 217, 87, 0.3));
+    }
+
 }

@@ -1,0 +1,147 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  
+}
+
+.sign-in {
+    margin-left: 850px;
+    margin-top: -80px;
+
+}
+
+#p1 {
+    white-space: nowrap;
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+
+}
+
+#p2 {
+    font-size: 35px;
+    font-weight: 900;
+    margin-top: -60px;
+    color: #7ed957;
+
+}
+
+#sign-in-form {
+    width: 200px;
+
+}
+
+input[type=text],
+[type=password] {
+    width: 340px;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid rgb(126, 217, 87);
+    box-sizing: border-box;
+    background-color: black;
+    font-size: 14px;
+    transition: box-shadow 0.3s ease;
+
+}
+
+input[type=text]:hover {
+    box-shadow: 5px 10px 20px rgba(126, 217, 87, 0.24);
+
+}
+
+input[type=password]:hover {
+    box-shadow: 5px 10px 20px rgba(126, 217, 87, 0.24);
+
+}
+
+input:focus::placeholder {
+    color: transparent
+}
+
+.submit-btn {
+    margin-top: 2px;
+    width: 340px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: #7ed957;
+    transition: 0.4s;
+
+}
+
+.submit-btn:hover {
+    background-color: black;
+    border-color: #7ed957;
+
+}
+
+
+.Oauth-btn {
+    width: 340px;
+    height: 38px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 20px;
+    transition: 0.4s;
+
+}
+
+.Oauth-btn img {
+    float: left;
+
+}
+
+.Oauth-btn:hover {
+    border-color: #7ed957;
+    background-color: black;
+    color: white;
+
+}
+
+#horizontal {
+    float: left;
+    width: 340px;
+    opacity: 0.2;
+    margin-top: 10px;
+
+}
+
+#no_account {
+    font-weight: bold;
+
+}
+
+.request_ac {
+    width: 340px;
+    height: 38px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #7ed957;
+    background-color: black;
+    border-color: #7ed957;
+    transition: 0.4s;
+
+}
+
+.request_ac:hover {
+    background-color: #7ed957;
+    border-color: #7ed957;
+    color:white;
+
+}
