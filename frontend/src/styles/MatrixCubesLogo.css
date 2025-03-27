@@ -1,16 +1,16 @@
 .logo-container {
     position: fixed;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  color: #7ed957;
-  overflow: hidden;
-  width: auto;  
-  height: auto; 
-  padding: 20px; 
-  margin-left: -800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #7ed957;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin-left: -800px;
 
 }
 
@@ -40,7 +40,7 @@
     margin-top: 210px;
     overflow: hidden;
     margin-left: 240px;
-    
+
 
 }
 
@@ -59,8 +59,8 @@
     justify-content: center;
 
 }
-  
-  
+
+
 .glowing-leaf-container img {
     width: 150px;
     height: auto;
@@ -71,16 +71,15 @@
 
 @keyframes glowAnimation {
     0% {
-      filter: drop-shadow(0px 0px 10px rgba(126, 217, 87, 0.3));
+        filter: drop-shadow(0px 0px 10px rgba(126, 217, 87, 0.3));
     }
+
     50% {
-      filter: drop-shadow(0px 0px 25px rgba(126, 217, 87, 0.5));
+        filter: drop-shadow(0px 0px 25px rgba(126, 217, 87, 0.5));
     }
+
     100% {
-      filter: drop-shadow(0px 0px 10px rgba(126, 217, 87, 0.3));
+        filter: drop-shadow(0px 0px 10px rgba(126, 217, 87, 0.3));
     }
 
 }
-  
-
-  
