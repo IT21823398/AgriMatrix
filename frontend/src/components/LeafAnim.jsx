@@ -16,7 +16,7 @@ const LeafAnim = () => {
             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
         >
             <img
-                src={LeafLogo}
+                src={leaf}
                 alt="Glowing Leaf Logo"
                 className="glowing-leaf-image"
             />
