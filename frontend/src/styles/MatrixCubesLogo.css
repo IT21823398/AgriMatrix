@@ -51,3 +51,14 @@
     box-shadow: 0px 0px 10px rgb(126, 217, 87);
 
 }
+
+.glowing-leaf-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+  
+
+  
